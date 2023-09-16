@@ -5,7 +5,7 @@ body {
 
 
 .slider_block {
-    width: 800px;
+    width: 1300px;
     height: auto;
     background-color: black;
     margin: auto; 
@@ -15,8 +15,8 @@ body {
 }
 
 .slider_list {
-    width: 700px;
-    height: 400px; 
+    width: 1200px;
+    height: 800px; 
     background-color: bisque;
     margin-left: 50px;
     margin-top: 20px;

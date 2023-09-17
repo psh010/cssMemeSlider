@@ -118,7 +118,7 @@ img {
 }
 
 .subtitle_block {
-    margin-top: 0.5%;
+    /* margin-top: 1.5%; */
 }
 
 .subtitle_text {
@@ -159,10 +159,18 @@ label:active {
 } */
 
 
-@media (max-width: 900px) {
+@media (max-width: 850px) {
 
-   img {
-    width: 70%;
-   }
+    .footer_block {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 3%;
+       }
+       
+    .control_block {
+        justify-content: center;
+       }
 
 }  
+
+

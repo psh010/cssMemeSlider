@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Meme Slider</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-        <div class="container" >
+        <div class="container">
+
                 <input type="radio" name="meme_slider" id="button1" checked>
                 <input type="radio" name="meme_slider" id="button2">
                 <input type="radio" name="meme_slider" id="button3">
                 <input type="radio" name="meme_slider" id="button4">
        
-            
-                <div class="slider_list">
-                    
+                <section class="slider_list">
 
                     <div class="slide first_slide">                
                         <img src="images/image1.jpg" alt="She uses jQuery!!!">
@@ -31,50 +32,28 @@
                         <img src="images/image4.jpg" alt="I finally became a programmer">  
                     </div>
 
+                </section>
 
 
-                </div>
+                <section class="footer_block" >
 
-
-               
-
-                <div class="footer_block" >
-                 
-                    <div class="subtitle_block_container">
-                        <div class="subtitle_block" >
-                            <div class="text text1 subtitle_text1" ><pre>She uses jQuery!!!</pre></div>
-                            <div class="text text2"><pre>New JS framework released</pre></div>
-                            <div class="text text3"><pre>Take my money and teach me JS</pre></div>
-                            <div class="text text4"><pre>I finally became a programmer</pre></div>
+                    <section class="title_block_container">
+                        <div class="title_block" >
+                            <div class="text text1"><pre class="text_style">She uses jQuery!!!</pre></div>
+                            <div class="text text2"><pre class="text_style">New JS framework released</pre></div>
+                            <div class="text text3"><pre class="text_style">Take my money and teach me JS</pre></div>
+                            <div class="text text4"><pre class="text_style">I finally became a programmer</pre></div>
                         </div>
-    
-                    </div>
+                    </section>
 
-                    
-                    <div class="control_block">
-                        
-                        <label for="button1" class="test"></label>
-                        <label for="button2" class="test"></label>
-                        <label for="button3" class="test"></label>
-                        <label for="button4" class="test"></label>
-                    </div>
-                </div>
-                
+                    <section class="control_block">
+                        <label for="button1" class="label1"></label>
+                        <label for="button2" class="label2"></label>
+                        <label for="button3" class="label3"></label>
+                        <label for="button4" class="label4"></label>
+                    </section>
 
-
-     
-            
-        
-    
-            
-           
-       
+                </section>
         </div>
-   
-
-
-
-        
-    
 </body>
 </html>
